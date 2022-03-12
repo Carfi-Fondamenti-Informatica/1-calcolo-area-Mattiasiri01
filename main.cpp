@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
   float a, b, c, Atriangolo=0, Aquadrato=0, Arettangolo=0, Atrapezio=0;
-  cout<< " La base del triangolo = a "<< " L'area del triangolo = b " <<endl;
+  cout<< " La base del triangolo = a "<< " L'altezza del triangolo = b " <<endl;
   cin>> a >> b;
   cout<< " L'area del triangolo = ((a*b)/2) " <<endl;
   cout<< ((a*b)/2) <<endl;
