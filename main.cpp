@@ -22,5 +22,7 @@ int main(){
   cin>> a >> b >> c;
   cout<< " L'area del trapezio = (((a+b)*c)/2) " <<endl;
   cout<< (((a+b)*c)/2) <<endl;
+  
+  return 0;
 
 }
