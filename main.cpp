@@ -18,7 +18,7 @@ int main(){
   cout<< " L'area del rettangolo = (a*b) "<<endl;
   cout<< (a*b) <<endl;
   
-  cout<< " La base minore del trapezio = a " << " La base maggiore del trapezio = b " << " L' altezza del trapezio = c <<endl;
+  cout<< " La base minore del trapezio = a " << " La base maggiore del trapezio = b " << " L' altezza del trapezio = c" <<endl;
   cin>> a >> b >> c;
   cout<< " L'area del trapezio = (((a+b)*c)/2) " <<endl;
   cout<< (((a+b)*c)/2) <<endl;
