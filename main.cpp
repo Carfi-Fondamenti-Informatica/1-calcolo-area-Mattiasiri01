@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-  float a, b, c, Atriangolo=0, Aquadrato=0, Arettangolo=0, Atrapezio=0;
+  float a, b, c, Atriangolo= ((a*b)/2), Aquadrato= (a*a), Arettangolo= (a*b) , Atrapezio= (((a+b)*c)/2);
   cout<< " a "<< " b " <<endl;
   cin>> a >> b;
   cout<< ((a*b)/2) <<endl;
