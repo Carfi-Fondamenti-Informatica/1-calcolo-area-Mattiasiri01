@@ -10,7 +10,7 @@ int main(){
   float Arettangolo= (a*b);
   float Atrapezio= (((a+b)*c)/2);
   
-  std::cin>> a >> b >> C;
+  std::cin>> a >> b >> c;
   std::cout<< ((a*b)/2)<<std::endl;
   std::cout<< (a*a)<<std::endl;
   std::cout<< (a*b)<<std::endl;
