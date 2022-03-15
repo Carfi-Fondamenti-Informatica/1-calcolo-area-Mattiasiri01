@@ -1,23 +1,20 @@
 #include <iostream>
-using namespace std;
+
 
 int main(){
-  float a, b, c, Atriangolo= ((a*b)/2), Aquadrato= (a*a), Arettangolo= (a*b) , Atrapezio= (((a+b)*c)/2);
-  cout<< " a "<< " b " <<endl;
-  cin>> a >> b;
-  cout<< ((a*b)/2) <<endl;
+  float a;
+  float b;
+  float c;
+  float Atriangolo= ((a*b)/2);
+  float Aquadrato= (a*a);
+  float Arettangolo= (a*b);
+  float Atrapezio= (((a+b)*c)/2);
   
-  cout<< " a "<<endl;
-  cin>> a;
-  cout<< (a*a) <<endl;
-  
-  cout<< " a " << " b " <<endl;
-  cin>> a >> b;
-  cout<<  (a*b) <<endl;
-  
-  cout<< " a " << " b " << " c " <<endl;
-  cin>> a >> b >> c;
-  cout<< (((a+b)*c)/2) <<endl;
+  std::cin>> a >> b >> C;
+  std::cout<< ((a*b)/2)<<std::endl;
+  std::cout<< (a*a)<<std::endl;
+  std::cout<< (a*b)<<std::endl;
+  std::cout<< (((a+b)*c)/2)<<std::endl;
   
   return 0;
 
